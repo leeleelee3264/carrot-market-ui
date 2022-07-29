@@ -7,7 +7,6 @@ void main() {
 }
 
 class CarrotMarketUI extends StatelessWidget {
-  const CarrotMarketUI({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

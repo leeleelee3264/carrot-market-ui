@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class NearMeScreen extends StatelessWidget {
+class NeighborhoodLifeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('nearMeScreen'),
+      child: Text('neigborhoodLifeScreen'),
     );
   }
 }
