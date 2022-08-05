@@ -3,6 +3,8 @@ import 'package:carrot_market_ui/screens/components/appbar_prefreed_size.dart';
 import 'package:carrot_market_ui/screens/near_me/components/bottom_title_icon.dart';
 import 'package:carrot_market_ui/screens/near_me/components/round_border_text.dart';
 import 'package:carrot_market_ui/screens/near_me/components/search_text_field.dart';
+import 'package:carrot_market_ui/screens/near_me/components/store_item.dart';
+import 'package:carrot_market_ui/theme.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -78,7 +80,29 @@ class NearMeScreen extends StatelessWidget {
               ],
             ),
           ),
-          const SizedBox(height: 50,)
+          const SizedBox(height: 50,),
+          Padding(
+            padding: const EdgeInsets.only(left: 16.0),
+            child: Text('이웃들의 추천 가게', style: textTheme().headline2,),
+          ),
+          const SizedBox(height: 20,),
+          Container(
+            height: 288,
+            child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              // controller: controller,
+              itemCount: recommendStoreList.length,
+              itemBuilder: (context, index) {
+                return Padding(
+                  padding: EdgeInsets.only(left: 16),
+                  child: StoreItem(
+                    recommendStore: recommendStoreList[index],
+                  ),
+                );
+              },
+            ),
+          ),
+          SizedBox(height: 40,),
         ],
       ),
     );
