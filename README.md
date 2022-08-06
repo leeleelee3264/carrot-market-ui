@@ -8,7 +8,7 @@
  
  <br> 
 
-This is repository for clone carrot market (당근마켓) to pratice flutter. 
+This is repository for clone carrot market [당근마켓](https://www.daangn.com/) to pratice flutter. 
 I published web version with github-pages, you can see the live demo [here](https://leeleelee3264.github.io/carrot-market-ui/build/web/#/)
 
 You can check how to publish flutter web with github pages [here](https://github.com/leeleelee3264/han-birthday#how-to-delpoy-flutter-to-github-page)
