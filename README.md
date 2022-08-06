@@ -16,6 +16,15 @@ You can check how to publish flutter web with github pages [here](https://github
 <br>
 <br> 
 
+## Preview 
+![Aug-06-2022 22-51-55](https://user-images.githubusercontent.com/35620531/183251851-51c1e69b-da69-4dff-9483-db314a17b1e7.gif)
+
+
+<br>
+<br>
+
+
+
 ## Page Index 
 
 Main page             |  Neighborhood page
